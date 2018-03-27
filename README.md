@@ -11,6 +11,9 @@ https://orga.cat/posts/most-useful-git-commands
 
 Points to be noted while creating private final variables --  IF we declare an object as final means it holds reference to an object, then the state of the object may be changed by operations on the object, but the variable will always refer to same object. 
 
+** An instance of immutable class can be considerd as final object** 
+
+
 Example- 
 
 final Class ImmutableClass{
@@ -23,3 +26,8 @@ public String getString(){
 return str;
 }
 }
+
+**final keyword** -- The final keyword is used to restrict the user. The final keyword can be used in different contexts.
+1. Variable - stop value change 
+2. Method - Stop method overridding
+3. Class - Stop Inheritance
