@@ -4,6 +4,7 @@ https://orga.cat/posts/most-useful-git-commands
 
 **Steps to create Immutable Class** -
 1. Class should be final, if a class declared as final cannot be inherited.
+** If we allow the class to inherit, there will be a chance of changing the state of final variable refering to some object**
 2. Set the access specifier of the variable to final so that once declared cannot be changed.
 3. initialize the private variable using public parameterized constructor.
 4. No setter methods should be there so that the private instance variables cannot be changed.
@@ -27,7 +28,12 @@ return str;
 }
 }
 
-**final keyword** -- The final keyword is used to restrict the user. The final keyword can be used in different contexts.
+**final keyword** -- The final keyword is a modifier used to restrict the user. The final keyword can be used in different contexts.
+
+final means we cannot change the value once assigned but the reference value that pointing to an object state can be muted.
+
+**when we talk in terms of variables and objects, final modifier is applicable for variables but not for objects where as immutability is applicable for only objects.** 
+
 1. Variable - stop value change 
 2. Method - Stop method overridding
 3. Class - Stop Inheritance
