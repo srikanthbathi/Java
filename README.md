@@ -13,13 +13,13 @@ Points to be noted while creating private final variables --  IF we declare an o
 
 Example- 
 
-**final Class ImmutableClass{
+final Class ImmutableClass{
 private final String str;
 
-**public ImmutableClass(String str){
+public ImmutableClass(String str){
 this.str = str;
 }
 public String getString(){
 return str;
-**}
-**}**
+}
+}
