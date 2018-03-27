@@ -10,3 +10,16 @@ https://orga.cat/posts/most-useful-git-commands
 
 
 Points to be noted while creating private final variables --  IF we declare an object as final means it holds reference to an object, then the state of the object may be changed by operations on the object, but the variable will always refer to same object. 
+
+Example- 
+
+**final Class ImmutableClass{
+private final String str;
+
+**public ImmutableClass(String str){
+this.str = str;
+}
+public String getString(){
+return str;
+**}
+**}**
