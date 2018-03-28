@@ -28,3 +28,6 @@ Integer count = 20;
 Integer test = 20;
 System.out.println(count==test); // is true because these integeres objects are interned
 
+
+**So Always use compareTo or equals method while comparing the instances of these wrapper classes.**
+
