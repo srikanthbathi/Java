@@ -29,6 +29,8 @@ return str;
 }
 }
 
+**when you pass object reference to the immutable class constructior while intansiating please make sure to clone the reference passed inside constructor while assigning to final object reference variable and return the cloned object in getter**
+
 **final keyword** -- The final keyword is a modifier used to restrict the user. The final keyword can be used in different contexts.
 
 final means we cannot change the value once assigned but the reference value that pointing to an object state can be muted.
